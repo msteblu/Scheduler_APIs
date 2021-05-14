@@ -30,7 +30,7 @@ textarea {
   border-radius: 15px;
 }
 
-.row {
+.input-group {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
@@ -41,6 +41,7 @@ textarea {
   color: #000000;
   border-top: 1px dashed #000000;
   border-left: none;
+  width: 80px;
 }
 
 .past {
