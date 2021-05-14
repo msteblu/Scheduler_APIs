@@ -17,7 +17,7 @@ let DateTime = luxon.DateTime;
 
 // Current Date and Time at the top of the page: 
 let now = DateTime.local();
-timeDisplayEl.text(now.toFormat("EEEE','  LLLL L',' t"));
+timeDisplayEl.text(now.toFormat("EEEE','  LLLL d',' t"));
 
 // Variables for time:
 let currentTime = now.toFormat("H");
